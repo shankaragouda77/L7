@@ -1,0 +1,21 @@
+#include <stdio.h>
+
+int main() {
+    int arr[5] = {10, 20, 30, 40, 50}; // Initializing an array
+    int i;
+
+    // Printing array elements
+    printf("Array elements:\n");
+    for(i = 0; i < 5; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    // Modifying an element
+    arr[2] = 100;
+    printf("\nModified array:\n");
+    for(i = 0; i < 5; i++) {
+        printf("%d ", arr[i]);
+    }
+
+    return 0;
+}
